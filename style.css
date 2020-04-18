@@ -17,12 +17,13 @@
 @media (max-width: 700px) {
 .showcase2 {
   margin-top:0px;
+   height: 150px;
 }
 .showcase2 h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 .showcase2 p {
-  font-size: 12px;
+  font-size: 15px;
 }
 }
 
@@ -43,7 +44,7 @@
 }
 .postContent {
   font-family: "Times New Roman", serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
 }
 .postFooter {
@@ -63,37 +64,41 @@
 }
 .left {
   width: 90%;
-  text-align: center;
   margin:20px;
 }
 .right {
   display: none;
+}
+.postContent {
+  font-family: "Baskerville", "Times New Roman";
+  font-size: 18px;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 .postFooter {
   padding: 5px;
 }
 }
 
+@media (max-width: 990px) {
+  .right {
+    display: none;
+  }
+  .left {
+  width: 90%;
+  margin:20px;
+}
+}
 /*THUMBNAIL IMAGE*/
-.thumb1 {
+.thumb img {
 width: 100%;
 height: 400px;
 margin-bottom: 10px;
-/*background: url(img1.jpg)no-repeat center center;*/
 }
 @media (max-width: 700px) {
-.thumb1 {
-height: 200px;
-}
-}
-.thumb2 {
-width: 100%;
-height: 400px;
-margin-bottom: 10px;
-/*background: url(img1.jpg)no-repeat center center;*/
-}
-@media (max-width: 700px) {
-.thumb2 {
+.thumb img {
 height: 200px;
 }
 }
